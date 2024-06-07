@@ -1,0 +1,374 @@
+[
+  {
+    "title": "Spotify Clone",
+    "description": "Development of a Spotify clone in which a music player, audio management and song playback is developed.",
+    "what_i_learned": [
+      "Development of a web application with Astro",
+      "Using TypeScript for code typing",
+      "Development of styles with the CSS framework - Tailwind",
+      "Use of zustand for global state management",
+      "Use of Svelte for some parts of the Component",
+      "Using React for player development"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": [
+      "Astro",
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Zustand",
+      "Svelt"
+    ],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://jclosadab1996-spotify-clone-astro.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/spotify-clone",
+    "images": [
+      {
+        "src": "/projects/spotify_clone/spotify_clone_1.webp",
+        "alt": "Clon de Spotify"
+      },
+      {
+        "src": "/projects/spotify_clone/spotify_clone_2.webp",
+        "alt": "Clon de Spotify"
+      },
+      {
+        "src": "/projects/spotify_clone/spotify_clone_3.webp",
+        "alt": "Clon de Spotify"
+      },
+      {
+        "src": "/projects/spotify_clone/spotify_clone_4.webp",
+        "alt": "Clon de Spotify"
+      }
+    ]
+  },
+  {
+    "title": "Nike - SPA",
+    "description": "Single Page Application based on the sports brand Nike",
+    "what_i_learned": [
+      "Using React for components",
+      "Using Vite Js packager for faster project development speed",
+      "Using Tailwind CSS for page design"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["React", "Tailwind", "ViteJS"],
+    "status": "Completed",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://nike-working-site-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/Nike-web-site",
+    "images": [
+      {
+        "src": "/projects/nike_spa/nike_spa_1.webp",
+        "alt": "Nike - SPA"
+      },
+      {
+        "src": "/projects/nike_spa/nike_spa_2.webp",
+        "alt": "Nike - SPA"
+      },
+      {
+        "src": "/projects/nike_spa/nike_spa_3.webp",
+        "alt": "Nike - SPA"
+      },
+      {
+        "src": "/projects/nike_spa/nike_spa_4.webp",
+        "alt": "Nike - SPA"
+      }
+    ]
+  },
+  {
+    "title": "Metaverse",
+    "description": "Development of a website with React in which framer motion is used to understand how to make animations with React.",
+    "what_i_learned": [
+      "Use of react for web development and its components",
+      "Development of styles with the Framer Motion framework",
+      "Using Tailwind CSS for Styles",
+      "Using next js"
+    ],
+    "features": "Personal Project",
+    "date": "2022",
+    "technologies": ["React", "Next JS", "Tailwind CSS", "Framer Motion"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://metaverse-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/MetaVerse-Project",
+    "images": [
+      {
+        "src": "/projects/metaverse/metaverse_madness_1.webp",
+        "alt": "Metaverse Universe"
+      },
+      {
+        "src": "/projects/metaverse/metaverse_madness_2.webp",
+        "alt": "Metaverse Universe"
+      },
+      {
+        "src": "/projects/metaverse/metaverse_madness_3.webp",
+        "alt": "Metaverse Universe"
+      },
+      {
+        "src": "/projects/metaverse/metaverse_madness_4.webp",
+        "alt": "Metaverse Universe"
+      }
+    ]
+  },
+  {
+    "title": "YouTube Clone",
+    "description": "Project Made in React consuming an API to recreate the YouTube platform.",
+    "what_i_learned": [
+      "React: Main library for building the user interface.",
+      "Development of styles with the Material UI framework",
+      "Vite: Tool for rapid packaging and development.",
+      "Use Rapid API to get the API KEY and requirements."
+    ],
+    "features": "Personal Project",
+    "date": "2023",
+    "technologies": ["React", "Vite JS", "Material UI", "Rapid API"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://youtube-clone-jclb96.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/Youtube_Clone",
+    "images": [
+      {
+        "src": "/projects/yotube_clone/youtube_1.webp",
+        "alt": "Youtube Clon"
+      },
+      {
+        "src": "/projects/yotube_clone/youtube_2.webp",
+        "alt": "Youtube Clon"
+      }
+    ]
+  },
+  {
+    "title": "Sushi-Man",
+    "description": "Project made with HTML and CSS to make a landing page",
+    "what_i_learned": [
+      "Using HTML5 Semantics for tags",
+      "Using CSS3 for page styling",
+      "Use of BEM Methodology for CSS"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["HTML5", "CSS3"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://sushi-man-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/Sushi_Landing_Page",
+    "images": [
+      {
+        "src": "/projects/sushiman/sushi_man_1.webp",
+        "alt": "Sushi-Man"
+      },
+      {
+        "src": "/projects/sushiman/sushi_man_2.webp",
+        "alt": "Sushi-Man"
+      },
+      {
+        "src": "/projects/sushiman/sushi_man_3.webp",
+        "alt": "Sushi-Man"
+      }
+    ]
+  },
+  {
+    "title": "HooBank",
+    "description": "Project made with React of a landing page following the design processes in figma. Using Tailwind CSS for layouts.",
+    "what_i_learned": [
+      "Using React to create the website with components",
+      "Using Tailwind CSS for Layout",
+      "Using the Vite Js packager for greater speed in project development"
+    ],
+    "features": "Personal Project",
+    "date": "2022",
+    "technologies": ["React ", "Tailwind CSS", "Vite JS"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://hookbank-project-jclosadab1996.netlify.app/"
+    },
+    "github": "hhttps://github.com/jclosadab1996/HooBank",
+    "images": [
+      {
+        "src": "/projects/HooBank/hoobank_1.webp",
+        "alt": "HooBank"
+      },
+      {
+        "src": "/projects/HooBank/hoobank_2.webp",
+        "alt": "HooBank"
+      },
+      {
+        "src": "/projects/HooBank/hoobank_3.webp",
+        "alt": "HooBank"
+      },
+      {
+        "src": "/projects/HooBank/hoobank_4.webp",
+        "alt": "HooBank"
+      }
+    ]
+  },
+  {
+    "title": "Space X - Launches",
+    "description": "Project carried out with Astro JS of a SpaceX landing page following its launches and using API consumption",
+    "what_i_learned": [
+      "Use of astro for page development",
+      "Using Tailwind CSS for Layout"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["Astro", "Tailwind CSS"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://spacex-launches-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/SpaceX-launches-astro",
+    "images": [
+      {
+        "src": "/projects/spacex/spacex_launches_1.webp",
+        "alt": "SpaceX - Launches"
+      },
+      {
+        "src": "/projects/spacex/spacex_launches_2.webp",
+        "alt": "SpaceX - Launches"
+      }
+    ]
+  },
+  {
+    "title": "Eco Store",
+    "description": "Project carried out with HTML, CSS, SASS and BEM Methodology",
+    "what_i_learned": [
+      "Using HTML5 Semantics",
+      "Using the SASS Preprocessor for styles"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["HTML5", "CSS", "SASS"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://eco-store-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/Eco-Store-Landing",
+    "images": [
+      {
+        "src": "/projects/ecostore/eco_store_1.webp",
+        "alt": "Eco Store"
+      },
+      {
+        "src": "/projects/ecostore/eco_store_2.webp",
+        "alt": "Eco Store"
+      },
+      {
+        "src": "/projects/ecostore/eco_store_3.webp",
+        "alt": "Eco Store"
+      },
+      {
+        "src": "/projects/ecostore/eco_store_4.webp",
+        "alt": "Eco Store"
+      }
+    ]
+  },
+  {
+    "title": "Tesla",
+    "description": "Tesla page clone project using Astro js and Tailwind CSS",
+    "what_i_learned": [
+      "Use of astro for page development",
+      "Using Tailwind CSS for page design"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["Astro", "Tailwind CSS"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://tesla-landing-page-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/tesla-landing-page-astro",
+    "images": [
+      {
+        "src": "/projects/tesla/tesla_1.webp",
+        "alt": "Tesla"
+      },
+      {
+        "src": "/projects/tesla/tesla_2.webp",
+        "alt": "Tesla"
+      },
+      {
+        "src": "/projects/tesla/tesla_3.webp",
+        "alt": "Tesla"
+      }
+    ]
+  },
+  {
+    "title": "La Velada 3",
+    "description": "Evening 3 clone project using Astro js AND Tailwind CSS",
+    "what_i_learned": [
+      "Use of astro for page development",
+      "Using Tailwind CSS for page design"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": ["Astro", "Tailwind CSS"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://velada-3-project.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/Velada_Project/tree/main",
+    "images": [
+      {
+        "src": "/projects/velada/velada_1.webp",
+        "alt": "La Velada 3"
+      },
+      {
+        "src": "/projects/velada/velada_2.webp",
+        "alt": "La Velada 3"
+      }
+    ]
+  },
+  {
+    "title": "Travel APP",
+    "description": "Single page project using tailwind and creating dark mode",
+    "what_i_learned": [
+      "Using HTML 5 Semantics",
+      "Using javascript for interactions",
+      "Using Tailwind CSS for page design"
+    ],
+    "features": "Personal Project",
+    "date": "2022",
+    "technologies": ["HTML5", "Tailwind CSS", "JavaScript"],
+    "status": "Finish",
+    "deploy": {
+      "page": "Netlify",
+      "demo": "https://travel-app-tailwind-3-jclosadab1996.netlify.app/"
+    },
+    "github": "https://github.com/jclosadab1996/TravelApp_With_TailwindCSS-3.0",
+    "images": [
+      {
+        "src": "/projects/travel_app/travel_app_1.webp",
+        "alt": "Travel APP"
+      },
+      {
+        "src": "/projects/travel_app/travel_app_2.webp",
+        "alt": "Travel APP"
+      },
+      {
+        "src": "/projects/travel_app/travel_app_3.webp",
+        "alt": "Travel APP"
+      },
+      {
+        "src": "/projects/travel_app/travel_app_4.webp",
+        "alt": "Travel APP"
+      }
+    ]
+  }
+]

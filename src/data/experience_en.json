@@ -1,0 +1,50 @@
+[
+  {
+    "education": [
+      {
+        "date": "2014 - 2019",
+        "title": "BACHELOR'S DEGREE IN CIVIL ENGINEER - PONTIFICAL JAVERIANA UNIVERSITY",
+        "description": "The undergraduate degree in Civil Engineering provides knowledge of calculation, mechanics, hydraulics and physics with creativity, scientific and professional competence to conceive, plan, develop, implement, direct and control the construction and maintenance processes of physical, urban and rural infrastructure works located in the environment, such as roads, railways, bridges, canals, dams, ports, airports, buildings and other related constructions.",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "workExperience": [
+      {
+        "date": "April - 2024",
+        "title": "J.P. Morgan Software Engineering Virtual Experience on Forage",
+        "description": "In this activity, a local development environment was established by configuring and downloading the necessary files, tools, and dependencies. Subsequently, a review of the repository was carried out to correct damaged files that prevented the correct functioning of the web application.",
+        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714187911014/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
+      },
+      {
+        "date": "April - 2024",
+        "title": "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
+        "description": "In this activity, I performed a job simulation assuming the role of a front-end engineer at Skyscanner, where I built a web application using React. During the process, I developed a specific page to allow users to choose a travel date. To do this, I used the open source Backpack React library, created by Skyscanner, which makes it easy to develop coherent and attractive user interfaces. In addition to implementing this functionality, I customized the application according to the established requirements and ran automated tests to ensure that everything was processed correctly and met quality standards.",
+        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190095609/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
+      },
+      {
+        "date": "April - 2024",
+        "title": "Hewlett Packard Enterprise Software Engineering Job Simulation on Forage",
+        "description": "Write a detailed proposal for a RESTful web service to manage a list of employees. This proposal defined the requirements, functionalities and architecture of the service. I then used Java Spring Boot to create a web server application capable of accepting and responding to HTTP requests, as well as supporting loading data in JSON format. This application implemented the initially proposed RESTful web service. Once the application was developed, I wrote and ran a comprehensive set of unit tests to evaluate its performance and ensure that it met the established requirements. These tests allowed us to identify and correct possible errors or deficiencies in the code.",
+        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190601611/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
+      }
+    ]
+  },
+  {
+    "professionalCourses": [
+      {
+        "date": "03/2023 - 10/2023",
+        "title": "Oracle Next Education F2 T5 Front-end Program",
+        "description": "Course aimed at the Frontend with an intensive training experience that covered more than 330 hours of specialized content. During this course, I have consolidated my knowledge in key Front-end development technologies, including HTML, CSS, JAvaScript, React and GIT, as well as agile methodologies and good programming practices.",
+        "link": "https://app.aluracursos.com/user/juancamilo-lb/fullCertificate/31f0b523b39f8728435999254fdf0439"
+      },
+      {
+        "date": "10/2021 - Continue",
+        "title": "PDevelopment of web pages, digital/multimedia content and computer resources",
+        "description": "Platzi is a leading online education platform specializing in web development and technology courses. Founded in 2014, Platzi has become a go-to resource for people looking to improve their skills or embark on a career in the digital field. With an extensive library of courses covering a wide range of topics, including programming languages, web design, data science, and more, Platzi serves students of all levels, from beginners to seasoned professionals. The platform's interactive and immersive learning environment, along with expert instructors and a supportive community, creates an engaging and effective educational experience.",
+        "link": "https://platzi.com/p/jclosdab1996/"
+      }
+    ]
+  }
+]

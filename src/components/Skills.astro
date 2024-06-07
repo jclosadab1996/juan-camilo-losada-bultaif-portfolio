@@ -1,0 +1,133 @@
+---
+import { useTranslations } from '../i18n/utils'
+import { IconTech } from './icons/icons'
+
+const { currentLocale = 'es' } = Astro
+
+const t = useTranslations(currentLocale)
+---
+
+<script>
+  import skillsList from './dom/skills-list'
+
+  skillsList()
+</script>
+
+<section class='skills' id='skills'>
+  <h2><IconTech /> {t('title.skills')}</h2>
+  <div class='btn__container'>
+    <button class='skills__btn' id='all'>{t('skills.all')}</button>
+    <button class='skills__btn active' id='frontEnd'
+      >{t('skills.frontend')}</button
+    >
+    <button class='skills__btn' id='backEnd'>{t('skills.backend')}</button>
+    <button class='skills__btn' id='databases'>{t('skills.database')}</button>
+    <button class='skills__btn' id='else'>{t('skills.other')}</button>
+  </div>
+  <article class='skills_container'>
+    <ul class='skills__list'></ul>
+  </article>
+</section>
+
+<style is:global>
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .btn__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid var(--sky-blue);
+    padding-bottom: 0.5rem;
+  }
+
+  .skills__btn {
+    padding: 0.5rem 1rem 0 1rem;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: var(--step-0);
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .skills__btn:hover {
+    color: var(--light-blue);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .active {
+    scale: 1.1;
+    color: var(--light-blue);
+  }
+
+  .active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--sky-blue);
+    box-shadow: var(--shadow-elevation-high);
+  }
+
+  .skills_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .skills__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  .responsive-svg {
+    max-width: 70px;
+    width: 100%;
+    height: auto;
+  }
+
+  .icon__svg {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: var(--step-0);
+    font-weight: 500;
+    color: var(--white);
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icon__svg:hover {
+    filter: drop-shadow(0 2px 2px var(--light-blue));
+    color: var(--sky-blue);
+    scale: 1.1;
+  }
+
+  .icon__svg:active {
+    color: var(--sky-blue);
+    scale: 0.9;
+  }
+
+  @media screen and (max-width: 480px) {
+    .responsive-svg {
+      max-width: 60px;
+    }
+  }
+</style>

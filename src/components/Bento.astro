@@ -1,0 +1,750 @@
+---
+import { useTranslations } from '../i18n/utils'
+import {
+  IconGitHub,
+  IconCodepen,
+  IconLinkedIn,
+  IconColombia
+} from './icons/icons'
+
+const { currentLocale = 'es' } = Astro
+
+const t = useTranslations(currentLocale)
+---
+
+<section class='bento'>
+  <article class='bento__1 bento-item'>
+    <header class='bento__1-header'>
+      <h1>{t('bento.title')}</h1>
+      <span>{t('bento.subtitle')}</span>
+    </header>
+    <p>
+      {t('bento.description')}
+    </p>
+    <footer class='bento__1-footer'>
+      <nav class='bento__1-footer__nav'>
+        <a
+          class='bento__1-footer__item'
+          href='https://github.com/jclosadab1996'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='Go to GitHub'
+        >
+          <IconGitHub />
+        </a>
+        <a
+          class='bento__1-footer__item'
+          href='https://www.linkedin.com/in/jclosadab/'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='Go to LinkedIn'
+        >
+          <IconLinkedIn />
+        </a>
+        <a
+          class='bento__1-footer__item'
+          href='https://codepen.io/juan-camilo-losada'
+          target='_blank'
+          rel='noopener noreferrer'
+          aria-label='Go to Instagram'
+        >
+          <IconCodepen />
+        </a>
+      </nav>
+    </footer>
+  </article>
+  <article class='bento__2 bento-item'>
+    <img
+      class='bento__2-img'
+      src='/img/bento-img.webp'
+      alt='imagen 2d en forma de anime'
+    />
+  </article>
+  <article class='bento__3 bento-item'>
+    <a
+      class='bento__3-link'
+      href='https://drive.google.com/drive/folders/1Qoz41KjJFXoToEKgpj0DAr_9rgbkut4b?usp=drive_link'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Go to download CV'
+    >
+      <svg
+        class='bento__3-icon'
+        viewBox='0 0 21 21'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <path
+          opacity='0.5'
+          d='M5.67514 15.6194L5.32158 15.2659L16.097 4.49043L16.4506 4.84399L5.67514 15.6194Z'
+          stroke='currentColor'
+          stroke-width='1.5'
+          stroke-linecap='round'
+          stroke-linejoin='round'></path>
+        <path
+          d='M16.5641 12.8623L16.6274 4.31369L8.0788 4.37701'
+          stroke='currentColor'
+          stroke-width='2'
+          stroke-linecap='round'
+          stroke-linejoin='round'></path>
+      </svg>
+      <strong>CV</strong>
+      <span>{t('bento.download')}</span>
+    </a>
+  </article>
+  <article class='bento__4 bento-item'>
+    <a
+      href='https://www.linkedin.com/in/jclosadab/'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Go to LinkedIn'
+    >
+      {t('bento.availability')}
+    </a>
+  </article>
+  <article class='bento__5 bento-item'>
+    <div>
+      <strong>{t('bento.country')}</strong>
+      <IconColombia />
+    </div>
+  </article>
+  <article class='bento__6 bento-item'>
+    <ul class='bento__6-list'></ul>
+    <strong>{t('bento.myStack')}</strong>
+  </article>
+  <article class='bento__7 bento-item'>
+    <blockquote>
+      <p>
+        {t('bento.phrase')}
+      </p>
+      <cite>{t('bento.author')}</cite>
+    </blockquote>
+    <svg
+      class='bento__7-icon'
+      viewBox='0 0 47 53'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <g clip-path='url(#clip0_156_546)'>
+        <path
+          d='M42.3038 3.27005H30.6338C28.2177 3.27005 26.2575 5.46711 26.2575 8.17511V21.2553C26.2575 23.9633 28.2177 26.1603 30.6338 26.1603H37.9276V32.7004C37.9276 36.3077 35.3109 39.2405 32.0926 39.2405H31.3632C30.1506 39.2405 29.175 40.3339 29.175 41.693V46.5981C29.175 47.9572 30.1506 49.0506 31.3632 49.0506H32.0926C40.1522 49.0506 46.6801 41.7339 46.6801 32.7004V8.17511C46.6801 5.46711 44.7199 3.27005 42.3038 3.27005ZM16.0463 3.27005H4.37626C1.9602 3.27005 0 5.46711 0 8.17511V21.2553C0 23.9633 1.9602 26.1603 4.37626 26.1603H11.67V32.7004C11.67 36.3077 9.05338 39.2405 5.83501 39.2405H5.10563C3.89305 39.2405 2.9175 40.3339 2.9175 41.693V46.5981C2.9175 47.9572 3.89305 49.0506 5.10563 49.0506H5.83501C13.8946 49.0506 20.4225 41.7339 20.4225 32.7004V8.17511C20.4225 5.46711 18.4623 3.27005 16.0463 3.27005Z'
+          fill='#4B5733'></path>
+      </g>
+      <defs>
+        <clipPath id='clip0_156_546'>
+          <rect width='46.6801' height='52.3207' fill='white'></rect>
+        </clipPath>
+      </defs>
+    </svg>
+  </article>
+  <article class='bento__8 bento-item'>
+    <time id='hour'>hour</time>
+    <time id='day'>day</time>
+    <time id='date'>date</time>
+  </article>
+  <article class='bento__9 bento-item'>
+    <img
+      class='bento__9-img-dark bento__9-img'
+      src='/img/star-wars-dark.webp'
+      alt='star wars dark'
+    />
+    <img
+      class='bento__9-img-light bento__9-img'
+      src='/img/star-wars-light.webp'
+      alt='star wars light'
+    />
+  </article>
+</section>
+
+<script>
+  import bento from './dom/bento.js'
+  bento()
+</script>
+
+<style is:global>
+  .bento {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, calc(var(--max-width) / 11 + 5px));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .bento-item {
+    border: 5px solid var(--dark-background);
+    border-radius: var(--border-radius);
+    background: linear-gradient(
+      180deg,
+      var(--dark-blue) 32.81%,
+      var(--black) 100%
+    );
+    box-shadow: var(--shadow-elevation-medium);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .bento-item:hover {
+    transform: scale(1.02);
+  }
+
+  .bento__1 {
+    grid-area: 1 / 1 / 3 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+  .bento__2 {
+    grid-area: 1 / 5 /4 / 7;
+    overflow: hidden;
+  }
+  .bento__3 {
+    grid-area: 3 / 1 / 5 / 3;
+  }
+  .bento__4 {
+    grid-area: 3 / 3 / 5 / 5;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px 1px #97ffef;
+  }
+  .bento__5 {
+    grid-area: 4 / 5 / 5 / 7;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bento__6 {
+    grid-area: 5 / 5 / 7 / 7;
+    position: relative;
+
+    padding: 1rem 1rem 3.5rem 1rem;
+  }
+  .bento__7 {
+    grid-area: 5 / 1 / 7 / 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .bento__8 {
+    grid-area: 5 / 4 / 6 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .bento__9 {
+    grid-area: 6 / 4 / 7 / 5;
+  }
+
+  .bento__1-header {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bento__1-header h1 {
+    font-size: var(--step-2);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.1;
+  }
+
+  .bento__1-header span {
+    font-size: var(--step-1);
+    font-weight: 600;
+    color: var(--light-blue);
+    line-height: 1.1;
+  }
+
+  .bento__1 p {
+    font-size: var(--step--1);
+    font-weight: 400;
+    color: var(--white);
+  }
+
+  .bento__1-footer {
+    padding: 0;
+  }
+
+  .bento__1-footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6rem;
+    opacity: 0.6;
+  }
+
+  .bento__1-footer__item {
+    color: var(--white);
+    scale: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .bento__1-footer__item:hover {
+    color: var(--light-blue);
+    transform: scale(1.1);
+  }
+
+  .bento__2-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    filter: drop-shadow(0 0 2px var(--light-blue));
+  }
+
+  .bento__3-link {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .bento__3-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    color: var(--light-blue);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .bento__3-link:hover .bento__3-icon {
+    transform: translateX(3px) translateY(-3px);
+  }
+
+  .bento__3 strong {
+    font-size: calc(var(--step-5) * 1.5);
+    font-weight: 800;
+    color: var(--light-blue);
+    line-height: 1;
+  }
+
+  .bento__3 span {
+    font-size: var(--step-2);
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1;
+  }
+
+  .bento__4::before {
+    content: '';
+    position: absolute;
+
+    width: 600px;
+    height: 600px;
+    background-image: conic-gradient(
+      from 90deg at 50% 50%,
+      #48d4aa,
+      #97ffef,
+      #48d4aa
+    );
+    animation: spin 3s linear infinite;
+    border-radius: var(--border-radius);
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .bento__4 a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--step-0);
+    font-weight: 800;
+    color: var(--white);
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(
+      180deg,
+      var(--dark-blue) 32.81%,
+      var(--black) 100%
+    );
+    border-radius: 25px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .bento__4 a:hover {
+    text-decoration: underline;
+    text-decoration-color: #48d4aa;
+  }
+
+  .bento__5 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .bento__5 strong {
+    font-size: var(--step-2);
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .icon-colombia {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .bento__6-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .bento__6 strong {
+    font-size: var(--step-1);
+    font-weight: 700;
+    color: var(--white);
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .bento__7 blockquote {
+    font-size: var(--step-1);
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .bento__7 cite {
+    font-size: var(--step-1);
+    font-weight: 600;
+    color: var(--light-blue);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .bento__7-icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--light-blue);
+
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .bento__8 time {
+    font-size: var(--step--2);
+    font-weight: 500;
+    color: var(--light-blue);
+  }
+
+  .bento__8 time:first-child {
+    font-size: var(--step-0);
+    color: var(--white);
+    font-weight: 600;
+    text-wrap: nowrap;
+  }
+
+  .bento__9-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    aspect-ratio: 16/9;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .bento__5 strong {
+      font-size: var(--step-1);
+    }
+
+    .icon-colombia {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .bento {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(6, minmax(min-content, max-content));
+    }
+
+    .bento__1 {
+      grid-area: 1 / 1 / 2 / 6;
+    }
+    .bento__2 {
+      grid-area: 2 / 1 / 3 / 3;
+      min-height: 200px;
+      max-height: 280px;
+    }
+    .bento__3 {
+      grid-area: 2 / 3 / 3 / 6;
+    }
+    .bento__4 {
+      grid-area: 3 / 1 / 4 / 4;
+    }
+    .bento__5 {
+      grid-area: 3 / 4 / 4 / 6;
+    }
+    .bento__6 {
+      grid-area: 4 / 4 / 6 / 6;
+    }
+    .bento__7 {
+      grid-area: 4 / 1 / 6 / 4;
+    }
+    .bento__8 {
+      grid-area: 6 / 1 / 7 / 3;
+    }
+    .bento__9 {
+      grid-area: 6 / 3 / 7 / 6;
+    }
+
+    .bento__5 strong {
+      font-size: var(--step-1);
+    }
+
+    .icon-colombia {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    .bento__8 time {
+      font-size: var(--step--1);
+      font-weight: 500;
+      color: var(--light-blue);
+    }
+
+    .bento__8 time:first-child {
+      font-size: var(--step-2);
+      color: var(--white);
+      font-weight: 700;
+      text-wrap: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 685px) {
+    .bento__5 strong {
+      font-size: var(--step-0);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .bento {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(7, minmax(min-content, max-content));
+    }
+
+    .bento__1 {
+      grid-area: 1 / 1 / 2 / 6;
+    }
+    .bento__2 {
+      grid-area: 2 / 1 / 3 / 3;
+    }
+    .bento__3 {
+      grid-area: 2 / 3 / 3 / 6;
+    }
+    .bento__4 {
+      grid-area: 4 / 1 / 5 / 6;
+    }
+    .bento__5 {
+      grid-area: 3 / 1 / 4 / 6;
+    }
+    .bento__6 {
+      grid-area: 5 / 1 / 6 / 6;
+    }
+    .bento__7 {
+      grid-area: 6 / 1 / 8 / 4;
+    }
+    .bento__8 {
+      grid-area: 6 / 4 / 7 / 6;
+    }
+    .bento__9 {
+      grid-area: 7 / 4 / 8 / 6;
+    }
+
+    .bento__5 strong {
+      font-size: var(--step-1);
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .bento {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(8, minmax(min-content, max-content));
+    }
+
+    .bento__1 {
+      grid-area: 1 / 1 / 2 / 7;
+    }
+    .bento__2 {
+      grid-area: 2 / 1 / 4 / 5;
+    }
+    .bento__3 {
+      grid-area: 2 / 5 / 4 / 7;
+    }
+    .bento__4 {
+      grid-area: 5 / 1 / 6 / 7;
+    }
+    .bento__5 {
+      grid-area: 4 / 1 / 5 / 7;
+    }
+    .bento__6 {
+      grid-area: 6 / 1 / 7 / 7;
+    }
+    .bento__7 {
+      grid-area: 7 / 1 / 8 / 7;
+    }
+    .bento__8 {
+      grid-area: 8 / 1 / 9 / 4;
+    }
+    .bento__9 {
+      grid-area: 8 / 4 / 9 / 7;
+    }
+
+    .bento__3-icon {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-right: 0.5rem;
+      top: 0.5rem;
+      right: 0.1rem;
+    }
+
+    .bento__3 strong {
+      font-size: var(--step-5);
+    }
+
+    .bento__3 span {
+      font-size: var(--step-0);
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .bento__3 strong {
+      font-size: var(--step-4);
+    }
+
+    .bento__3 span {
+      font-size: var(--step--1);
+    }
+
+    .bento__8 time:first-child {
+      font-size: var(--step-1);
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .bento {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(9, minmax(min-content, max-content));
+    }
+
+    .bento__1 {
+      grid-area: 1 / 1 / 2 / 2;
+    }
+    .bento__2 {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+    .bento__3 {
+      grid-area: 3 / 1 / 4 / 2;
+      padding: 1rem;
+    }
+    .bento__4 {
+      grid-area: 4 / 1 / 5 / 2;
+    }
+    .bento__5 {
+      grid-area: 5 / 1 / 6 / 2;
+    }
+    .bento__6 {
+      grid-area: 6 / 1 / 7 / 2;
+    }
+    .bento__7 {
+      grid-area: 7 / 1 / 8 / 2;
+    }
+    .bento__8 {
+      grid-area: 8 / 1 / 9 / 2;
+    }
+    .bento__9 {
+      grid-area: 9 / 1 / 10 / 2;
+    }
+
+    .bento__3-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      top: 0rem;
+      right: 0rem;
+    }
+
+    .bento__3 strong {
+      font-size: var(--step-5);
+    }
+
+    .bento__3 span {
+      font-size: var(--step-1);
+    }
+
+    .bento__8 time:first-child {
+      font-size: var(--step-2);
+    }
+
+    .bento__8 time {
+      font-size: var(--step-0);
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .bento__5 strong {
+      font-size: var(--step-2);
+    }
+
+    .icon-colombia {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+</style>

@@ -1,0 +1,168 @@
+---
+import { IconContact } from './icons/icons'
+import { useTranslations } from '../i18n/utils'
+import { IconWhatsApp, IconGmail } from './icons/icons'
+
+const { currentLocale = 'es' } = Astro
+
+const t = useTranslations(currentLocale)
+---
+
+<section id='contact'>
+  <h2><IconContact /> {t('title.contact')}</h2>
+  <article class='contact__container'>
+    <div class='contact__container-info'>
+      <div class='container__info'>
+        <p class='info__text'>
+          {t('contact.paragraph.1')}
+        </p>
+        <p class='info__text'>
+          {t('contact.paragraph.2')}
+        </p>
+        <p class='info__text'>
+          {t('contact.paragraph.3')}
+        </p>
+      </div>
+
+      <nav class='info__contact'>
+        <a
+          class='contact__link'
+          href='mailto:juancamilo.lb@hotmail.com'
+          rel='noopener noreferrer'
+        >
+          <IconGmail /> juancamilo.lb@hotmail.com
+        </a>
+
+        <a
+          class='contact__link-btn'
+          href='https://drive.google.com/drive/folders/1Qoz41KjJFXoToEKgpj0DAr_9rgbkut4b?usp=drive_link'
+          target='_blank'
+          rel='noopener noreferrer'>{t('contact.btn')}</a
+        >
+      </nav>
+    </div>
+    <div class='contact__img'>
+      <img src='/img/contact-img.webp' alt='contact-img' loading='lazy' />
+    </div>
+  </article>
+</section>
+
+<style>
+  .contact__container {
+    display: flex;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    gap: 2rem;
+  }
+
+  .contact__container-info {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .container__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact__img {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contact__img img {
+    height: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border: 3px solid var(--sky-blue);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-elevation-medium);
+  }
+
+  .info__text {
+    font-size: var(--step-0);
+    text-wrap: balance;
+    line-height: 1.5rem;
+    color: var(--white);
+  }
+
+  .info__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .contact__link {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: var(--step-0);
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .contact__link:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact__link-btn {
+    max-width: 20rem;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+    color: var(--black);
+    font-size: var(--step--1);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact__link-btn:hover {
+    background-color: var(--light-blue);
+    text-decoration: underline;
+    text-decoration-color: var(--black);
+    box-shadow: var(--shadow-elevation-medium);
+  }
+
+  @media (max-width: 744px) {
+    .contact__container {
+      padding: 2rem 0;
+      gap: 1.5rem;
+      flex-direction: column-reverse;
+    }
+
+    .contact__container-info {
+      width: 100%;
+    }
+
+    .contact__img {
+      width: fit-content;
+      align-self: center;
+    }
+
+    .contact__img img {
+      width: 100%;
+      height: 100%;
+      max-height: 400px;
+      object-fit: contain;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .info__contact a {
+      text-wrap: balance;
+      word-break: break-all;
+      gap: 0.25rem;
+    }
+  }
+</style>

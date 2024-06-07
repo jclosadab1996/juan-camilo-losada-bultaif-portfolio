@@ -1,0 +1,108 @@
+---
+import { IconGitHub, IconLinkedIn, IconCodepen } from './icons/icons'
+---
+
+<footer class='footer'>
+  <nav class='footer__nav'>
+    <a
+      class='footer__item'
+      href='https://github.com/jclosadab1996'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Go to GitHub'
+    >
+      <IconGitHub />
+    </a>
+    <a
+      class='footer__item'
+      href='https://www.linkedin.com/in/jclosadab/'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Go to LinkedIn'
+    >
+      <IconLinkedIn />
+    </a>
+    <a
+      class='footer__item'
+      href='https://codepen.io/juan-camilo-losada'
+      target='_blank'
+      rel='noopener noreferrer'
+      aria-label='Go to Instagram'
+    >
+      <IconCodepen />
+    </a>
+  </nav>
+  <p class='footer__text'>© Juan Camilo Losada - 2024.</p>
+</footer>
+
+<style>
+  .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4.4rem;
+  }
+
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(var(--max-width) - 8rem);
+    max-width: 100%;
+    height: 1px;
+    background-color: var(--sky-blue);
+    box-shadow: var(--shadow-elevation-high);
+  }
+
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .footer__text {
+    padding: 2.5rem 0;
+    font-size: var(--step-0);
+    font-weight: 500;
+    color: var(--white);
+    text-wrap: nowrap;
+  }
+
+  .footer__item {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .footer__item:hover {
+    color: var(--light-blue);
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 400px) {
+    .footer {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .footer__nav {
+      gap: 1rem;
+    }
+
+    .footer__text {
+      font-size: var(--step--1);
+      font-weight: 600;
+      padding: 1.5rem 0;
+    }
+  }
+</style>

@@ -1,0 +1,28 @@
+---
+import { IconProjects } from '../icons/icons'
+import { useTranslations } from '../../i18n/utils'
+import ProjectsGallery from './ProjectsGallery'
+import projects_es from '../../data/projects_es.json'
+import projects_en from '../../data/projects_en.json'
+
+const { currentLocale = 'es' } = Astro
+
+const t = useTranslations(currentLocale)
+---
+
+<section class='projects' id='projects'>
+  <h2><IconProjects /> {t('title.projects')}</h2>
+  <ProjectsGallery
+    client:visible
+    projects={currentLocale === 'es' ? projects_es : projects_en}
+    locale={currentLocale}
+  />
+</section>
+
+<style>
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+</style>

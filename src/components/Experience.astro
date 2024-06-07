@@ -1,0 +1,145 @@
+---
+import { IconExperience } from './icons/icons'
+
+import { useTranslations } from '../i18n/utils'
+import ExperienceTimeLineItem from './ExperienceTimeLineItem.astro'
+import experience_es from '../data/experience_es.json'
+import experience_en from '../data/experience_en.json'
+
+const { currentLocale = 'es' } = Astro
+
+const t = useTranslations(currentLocale)
+---
+
+<section class='experience' id='experience'>
+  <h2><IconExperience /> {t('title.experience')}</h2>
+  <p class='experience__description'>
+    {t('experience.description')}
+  </p>
+  <article class='experience__timeline'>
+    <div>
+      <h3 class='timeline__title-theme'>{t('experience.work')}</h3>
+      <ol class='timeline'>
+        {
+          currentLocale === 'es'
+            ? experience_es?.map(item =>
+                item.workExperience?.map(workItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...workItem} />
+                  </li>
+                ))
+              )
+            : experience_en?.map(item =>
+                item.workExperience?.map(workItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...workItem} />
+                  </li>
+                ))
+              )
+        }
+      </ol>
+    </div>
+    <div>
+      <h3 class='timeline__title-theme'>{t('experience.education')}</h3>
+      <ol class='timeline'>
+        {
+          currentLocale === 'es'
+            ? experience_es?.map(item =>
+                item.education?.map(educationItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...educationItem} />
+                  </li>
+                ))
+              )
+            : experience_en?.map(item =>
+                item.education?.map(educationItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...educationItem} />
+                  </li>
+                ))
+              )
+        }
+      </ol>
+    </div>
+    <div>
+      <h3 class='timeline__title-theme'>{t('experience.course')}</h3>
+      <ol class='timeline'>
+        {
+          currentLocale === 'es'
+            ? experience_es?.map(item =>
+                item.professionalCourses?.map(coursesItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...coursesItem} />
+                  </li>
+                ))
+              )
+            : experience_en?.map(item =>
+                item.professionalCourses?.map(coursesItem => (
+                  <li class='timeline__item'>
+                    <ExperienceTimeLineItem {...coursesItem} />
+                  </li>
+                ))
+              )
+        }
+      </ol>
+    </div>
+  </article>
+</section>
+
+<style>
+  .experience {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .experience__description {
+    font-size: var(--step--1);
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  .experience__timeline {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .experience__timeline > div {
+    width: 100%;
+    max-width: 75ch;
+  }
+
+  .timeline__title-theme {
+    font-size: var(--step-1);
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline {
+    list-style: none;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: var(--sky-blue);
+  }
+
+  .timeline__item {
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+  }
+
+  .timeline__item:last-child {
+    margin-bottom: 0;
+  }
+</style>
