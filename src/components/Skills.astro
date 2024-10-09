@@ -44,6 +44,7 @@ const t = useTranslations(currentLocale)
     flex-wrap: wrap;
     gap: 1rem;
     border-bottom: 1px solid var(--sky-blue);
+    box-shadow: var(--shadow-elevation-medium);
     padding-bottom: 0.5rem;
   }
 
@@ -115,8 +116,7 @@ const t = useTranslations(currentLocale)
   }
 
   .icon__svg:hover {
-    filter: drop-shadow(0 2px 2px var(--light-blue));
-    color: var(--sky-blue);
+    filter: drop-shadow(0 1px 1px var(--sky-blue));
     scale: 1.1;
   }
 

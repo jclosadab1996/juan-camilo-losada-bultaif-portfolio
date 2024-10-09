@@ -9,13 +9,13 @@ export default function bento() {
   const language = $html.getAttribute('lang')
   let locales
 
-  language == 'es' ? (locales = 'es-AR') : (locales = 'en-US')
+  language == 'es' ? (locales = 'es-CO') : (locales = 'en-US')
 
   const getTime = () => {
     const time = new Date().toLocaleTimeString(locales, {
       hour: 'numeric',
       minute: 'numeric',
-      hourCycle: 'h12'
+      hourCycle: 'h24'
     })
 
     const dayName = new Date().toLocaleDateString(locales, {
@@ -39,15 +39,7 @@ export default function bento() {
     getTime()
   }, 10000)
 
-  const mySkills = [
-    'JS',
-    'React',
-    'Next js',
-    'Astro',
-    'Node JS',
-    'Python',
-    'MySQL'
-  ]
+  const mySkills = ['TS', 'React', 'Next js', 'SQL', 'Tailwind', 'Node JS']
 
   let allSkills = []
   Object.values(skillsData).forEach(skillGroup => {

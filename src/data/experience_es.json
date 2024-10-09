@@ -3,20 +3,20 @@
     "education": [
       {
         "date": "2014 - 2019",
-        "title": "INGENIERO CIVIL - PONTIFICIA UNIVERSIDAD JAVERIANA",
-        "description": "El pregrado en Ingeniería Civil brinda conocimientos de cálculo, mecánica, hidráulica y física con creatividad, competencia científica y profesional para concebir, planificar, desarrollar, implementar, dirigir y controlar los procesos de construcción y mantenimiento de obras de infraestructura física, urbana y rural ubicadas en el medio ambiente, como carreteras, ferrocarriles, puentes, canales, presas, puertos, aeropuertos, edificios y otras construcciones relacionadas.",
+        "title": "Ingeniero Civil - Pontificia Universidad Javeriana",
+        "description": "El programa combina conocimientos científicos y tecnológicos con un enfoque en sostenibilidad y responsabilidad social. Desarrollo de habilidades en áreas como estructuras, geotecnia, hidráulica, vías y transporte, y construcción, con un fuerte componente práctico y uso de tecnologías avanzadas.",
         "link": ""
+      },
+      {
+        "date": "2022 - 2024",
+        "title": "Diploma del idioma Japones - ISI International Study Institute",
+        "description": "Programa de dos años en el cual se realizo estudio del idioma japonés hasta un nivel JLPT N1. Con conocimientos en más de 2100 Kanjis y gramatica Japonesa.",
+        "link": "https://drive.google.com/drive/folders/1UHQ81fVH2wvSYhPevnE-6NDzVF0Jl0Bd"
       }
     ]
   },
   {
     "workExperience": [
-      {
-        "date": "Abril - 2024",
-        "title": "J.P. Morgan Software Engineering Virtual Experience on Forage",
-        "description": "En esta actividad, se estableció un entorno de desarrollo local configurando y descargando los archivos, herramientas y dependencias necesarias. Posteriormente, se realizó una revisión del repositorio para corregir archivos dañados que impedían el correcto funcionamiento de la aplicación web.",
-        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714187911014/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
-      },
       {
         "date": "Abril - 2024",
         "title": "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
@@ -32,17 +32,22 @@
       }
     ]
   },
-
   {
     "professionalCourses": [
       {
+        "date": "09/2024 - Cursando",
+        "title": "Desarrollador Web FullStack - Programa Talento Tech Colombia",
+        "description": "Curso destinado al desarrollo Web FullStack con una experiencia formativa intensiva que abarca más de 159 horas de contenido especializado. Durante este curso, he consolidado mis conocimientos en tecnologías clave del desarrollo Web FullStack, incluyendo HTML, CSS, JavaScript, React, NodeJS, Express, TailwindCSS & GIT, ademas de metodologías ágiles y buenas prácticas de programación.",
+        "link": ""
+      },
+      {
         "date": "03/2023 - 10/2023",
         "title": "Programa Oracle Next Education F2 T5 Front-End",
-        "description": "Curso destinado al Frontend con una experiencia formativa intensiva que abarcó más de 330 horas de contenido especializado. Durante este curso, he consolidado mis conocimientos en tecnologías clave del desarrollo Front-end, incluyendo HTML, CSS, JAvaScript, React y GIT, como ademas de metodologías ágiles y buenas prácticas de programación.",
+        "description": "Curso destinado al Frontend con una experiencia formativa intensiva que abarcó más de 330 horas de contenido especializado. Durante este curso, he consolidado mis conocimientos en tecnologías clave del desarrollo Front-end, incluyendo HTML, CSS, JavaScript, React y GIT, como ademas de metodologías ágiles y buenas prácticas de programación.",
         "link": "https://app.aluracursos.com/user/juancamilo-lb/fullCertificate/31f0b523b39f8728435999254fdf0439"
       },
       {
-        "date": "10/2021 - Continua",
+        "date": "10/2021 - Cursando",
         "title": "Desarrollo de páginas web, contenido digital/multimedia y recursos informáticos",
         "description": "Platzi es una plataforma líder de educación en línea que se especializa en desarrollo web y cursos de tecnología. Fundada en 2014, Platzi se ha convertido en un recurso de referencia para personas que buscan mejorar sus habilidades o emprender una carrera en el ámbito digital. Con una amplia biblioteca de cursos que cubren una amplia gama de temas, incluidos lenguajes de programación, diseño web, ciencia de datos y más, Platzi atiende a estudiantes de todos los niveles, desde principiantes hasta profesionales experimentados. El entorno de aprendizaje interactivo e inmersivo de la plataforma, junto con instructores expertos y una comunidad de apoyo, crea una experiencia educativa atractiva y eficaz.",
         "link": "https://platzi.com/p/jclosdab1996/"

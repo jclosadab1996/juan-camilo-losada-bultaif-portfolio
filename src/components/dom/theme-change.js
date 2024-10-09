@@ -39,7 +39,7 @@ export default function themeChange() {
   ).matches
 
   const lsLoader = () => {
-    const storedMode = ls.getItem('darkMode-juan-camilo-losada')
+    const storedMode = ls.getItem('darkMode-portafolio')
     if (storedMode === 'true') {
       setThemeDark()
     } else if (storedMode === 'false') {
@@ -57,7 +57,7 @@ export default function themeChange() {
     btn.addEventListener('click', () => {
       changeColor()
       ls.setItem(
-        'darkMode-juan-camilo-losada',
+        'darkMode-portafolio',
         html.classList.contains('dark') ? 'true' : 'false'
       )
     })

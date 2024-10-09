@@ -86,6 +86,84 @@
     ]
   },
   {
+    "title": "CarePulse",
+    "description": "Desarrollo de una pagina web con NextJS donde se uso appWrite para el almacenamiento de lo datos y Twilio para mandar mensajes SMS. Tiene un modo Administrador al cual se puede acceder con la contraseña 123456",
+    "what_i_learned": [
+      "Uso de Next JS para el desarrollo web, componentes y enrutamientos",
+      "Uso de App Write para la base de datos",
+      "Uso de Tailwind CSS para los estilos",
+      "Uso de Twilio para mandar SMS",
+      "Uso de sentry para deteccion de problemas"
+    ],
+    "features": "Proyecto Personal",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "App Write",
+      "Twilio",
+      "Sentry"
+    ],
+    "status": "Finalizada",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://healthcare-platform-jclosadab1996.vercel.app/"
+    },
+    "github": "https://github.com/jclosadab1996/healthcare_platform",
+    "images": [
+      {
+        "src": "projects/carepulse/carepulse_1.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_2.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_3.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_4.webp",
+        "alt": "CarePulse"
+      }
+    ]
+  },
+  {
+    "title": "Figma Clon",
+    "description": "Desarrollo de un clon de figma usando Next JS, Canvas, Fabric JS y LiveBlocks",
+    "what_i_learned": [
+      "Uso de Next JS para el desarrollo web, enrutamientos y componentes",
+      "Desarrollo de componentes con LiveBlocks y Shadcn",
+      "Uso de Tailwind CSS para los estilos"
+    ],
+    "features": "Proyecto Personal",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn",
+      "Canvas",
+      "liveBlocks"
+    ],
+    "status": "Finalizada",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://figma-clone-nextjs-jclosadab1996.vercel.app/"
+    },
+    "github": "https://github.com/jclosadab1996/figma-clone-nextjs",
+    "images": [
+      {
+        "src": "projects/figma_clone/figma_clone_1.webp",
+        "alt": "Fig Pro"
+      },
+      {
+        "src": "projects/figma_clone/figma_clone_2.webp",
+        "alt": "Fig Pro"
+      }
+    ]
+  },
+  {
     "title": "Metaverse",
     "description": "Desarrollo de una pagina web con React en el cual se usa framer motion para entender como hacer animaciones con React.",
     "what_i_learned": [
@@ -148,6 +226,45 @@
       {
         "src": "/projects/yotube_clone/youtube_2.webp",
         "alt": "Youtube Clon"
+      }
+    ]
+  },
+  {
+    "title": "Live Docs",
+    "description": "Desarrollo de una aplicación web al estilo de google Sheets. Desarrollada en Next JS, Clerk para validación y LiveBlocks para el diseño.",
+    "what_i_learned": [
+      "Uso de Next JS para el desarrollo web, enrutamientos y componentes",
+      "Desarrollo de componentes con LiveBlocks y Shadcn",
+      "Uso de Tailwind CSS para los estilos",
+      "Validación de usuarios con Clerk"
+    ],
+    "features": "Proyecto Personal",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn",
+      "Clerk",
+      "liveBlocks"
+    ],
+    "status": "Finalizada",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://live-docs-app-jclosadab1996.vercel.app/sign-in"
+    },
+    "github": "https://github.com/jclosadab1996/Live_docs_app",
+    "images": [
+      {
+        "src": "projects/live_docs/live_docs_1.webp",
+        "alt": "Live Docs"
+      },
+      {
+        "src": "projects/live_docs/live_docs_2.webp",
+        "alt": "Live Docs"
+      },
+      {
+        "src": "projects/live_docs/live_docs_3.webp",
+        "alt": "Live Docs"
       }
     ]
   },

@@ -11,12 +11,12 @@ export const ui = {
     'title.projects': 'Proyectos',
     'title.skills': 'tecnologías',
     'title.contact': 'Contactame',
-    'bento.title': 'JUAN CAMILO LOSADA',
-    'bento.subtitle': 'Frontend Developer',
+    'bento.title': 'JUAN CAMILO LOSADA B',
+    'bento.subtitle': 'Full Stack Developer',
     'bento.description':
-      'Desarrollador Frontend con sólidos conocimientos en tecnologías web modernas. Con habilidades para crear interfaces de usuario recptivas, visualmente creativas, optimizadas en rendimiento y accesabilidad.',
+      'Desarrollador Full Stack con sólidos conocimientos en tecnologías web modernas. Con habilidades para crear interfaces de usuario recptivas, visualmente creativas, optimizadas en rendimiento y accesabilidad',
     'bento.download': 'Descargar',
-    'bento.availability': 'DISPONIBLE PARA TRABAJAR',
+    'bento.availability': 'Conectemos 🚀',
     'bento.country': 'COLOMBIA',
     'bento.phrase':
       '“¿Quien decide donde estan los limites? Es mejor seguir adelante que dejar que la frustración te detenga”',
@@ -25,7 +25,8 @@ export const ui = {
     'bento.contact': 'Hola 👋',
 
     'experience.description': `Profesional versátil y realizado. Ingeniero civil dedicado y experimentado con amplios conocimientos de
-    principios, teorías, especificaciones y normas de ingeniería.  Aporta liderazgo, disciplina y capacidad para trabajar bajo presión. Altamente creativo e innovador en la resolución de problemas, experto en multitarea e ingenioso en la búsqueda de soluciones.`,
+    principios, teorías, especificaciones y normas de ingeniería.  Aporta liderazgo, disciplina y capacidad para trabajar bajo presión.
+    Altamente creativo e innovador en la resolución de problemas, experto en multitarea e ingenioso en la búsqueda de soluciones.`,
     'experience.education': 'EDUCACIÓN',
     'experience.work': 'TRABAJO',
     'experience.course': 'CURSOS',
@@ -38,9 +39,8 @@ export const ui = {
     'skills.backend': 'Back-end',
     'skills.database': 'Base de datos',
     'skills.other': 'Otras',
-    'contact.paragraph.1': `Soy Juan Camilo Losada y tengo 28 años. Soy Desarrollador frontend junior con sólidos conocimientos en tecnologías web modernas, adquiridos a través de
-    una formación académica en informática y capacitación práctica. Dominio de HTML, CSS, JavaScript y
-    frameworks como React. Entre otras tecnologías.`,
+    'contact.paragraph.1': `Soy Juan Camilo Losada y tengo 28 años. Soy Desarrollador Web FullStack con sólidos conocimientos en tecnologías web modernas, adquiridos a través de
+    una formación académica en informática y capacitación práctica. Dominio de HTML, CSS, JavaScript y frameworks como React. Entre otras tecnologías.`,
     'contact.paragraph.2': `Habilidad para crear interfaces de usuario receptivas, visualmente atractivas,
     optimizadas en rendimiento y accesibilidad. Comprometido con escribir código limpio, mantenible y siguiendo
     las mejores prácticas de la industria. Excelentes habilidades de comunicación, trabajo en equipo y resolución de
@@ -67,19 +67,18 @@ export const ui = {
     'title.projects': 'Projects',
     'title.skills': 'Skills',
     'title.contact': 'Contact me',
-    'bento.title': 'JUAN CAMILO LOSADA',
-    'bento.subtitle': 'Frontend Developer',
-    'bento.description': `Frontend developer with solid knowledge of modern web technologies. With skills to create responsive, visually creative user interfaces, optimized for performance and accessibility.`,
+    'bento.title': 'JUAN CAMILO LOSADA B',
+    'bento.subtitle': 'Full Stack Developer',
+    'bento.description': `Full Stack Developer with solid knowledge in modern web technologies. Skilled in creating responsive, visually creative, performance and accessibility optimized user interfaces.`,
     'bento.download': 'Download',
-    'bento.availability': 'AVAILABLE TO WORK',
+    'bento.availability': `Connect with me 🚀`,
     'bento.country': 'COLOMBIA',
     'bento.phrase':
       '"Who decides where the limits are? Its better to keep going than to let frustration stop you."',
     'bento.author': 'Saitama',
     'bento.myStack': 'My Stack',
     'bento.send': 'Send 🚀',
-    'experience.description': `Versatile and accomplished professional. Dedicated and experienced civil engineer with extensive knowledge of
-    engineering principles, theories, specifications and standards. Provides leadership, discipline and the ability to work under pressure. Highly creative and innovative in problem solving, expert in multitasking and resourceful in finding solutions.`,
+    'experience.description': `Versatile and accomplished professional. Dedicated and experienced civil engineer with extensive knowledge of engineering principles, theories, specifications and standards. Brings leadership, discipline and ability to work under pressure. Highly creative and innovative in problem solving, adept at multi-tasking and resourceful in finding solutions.`,
     'experience.education': 'EDUCATION',
     'experience.work': 'WORK EXPERIENCE',
     'experience.course': 'COURSES',
@@ -92,14 +91,11 @@ export const ui = {
     'skills.backend': 'Back-end',
     'skills.database': 'Database',
     'skills.other': 'Other',
-    'contact.paragraph.1': `Im Juan Camilo Losada and I am 28 years old. Im a junior frontend developer with solid knowledge of modern web technologies, acquired through
-    an academic background in computer science and practical training. Mastery of HTML, CSS, JavaScript and
-    frameworks like React. Among other technologies.`,
-    'contact.paragraph.2': `Ability to create responsive, visually appealing user interfaces,
-    optimized for performance and accessibility. Committed to writing clean, maintainable code and following
-    industry best practices. Excellent communication, teamwork and problem-solving skills
-    issues. Passionate about staying up to date on the latest frontend development trends and techniques.`,
-    'contact.paragraph.3': `Eager to contribute to innovative projects, while continuing to expand my knowledge and experience in the area of ​​frontend development. If you have any questions or want to contact me, do not hesitate to write to me.`,
+    'contact.paragraph.1': `I'm Juan Camilo Losada and I'm 28 years old. I´m a FullStack Web Developer with solid knowledge of modern web technologies, acquired through
+    an academic background in computer science and practical training. Mastery of HTML, CSS, JavaScript and frameworks like React. Among other technologies.`,
+    'contact.paragraph.2': `I consider myself a calm person who enjoys life and continues to
+    learning every day. For me, programming is a powerful tool to create solutions that improve people's lives and I am always willing to take on new challenges and projects.`,
+    'contact.paragraph.3': `If you have any questions or want to contact me, do not hesitate to write to me.`,
     'contact.btn': 'Download Resume',
     'project.learn': 'What I learned',
     'project.characteristics': 'Characteristics',

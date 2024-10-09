@@ -4,19 +4,19 @@
       {
         "date": "2014 - 2019",
         "title": "BACHELOR'S DEGREE IN CIVIL ENGINEER - PONTIFICAL JAVERIANA UNIVERSITY",
-        "description": "The undergraduate degree in Civil Engineering provides knowledge of calculation, mechanics, hydraulics and physics with creativity, scientific and professional competence to conceive, plan, develop, implement, direct and control the construction and maintenance processes of physical, urban and rural infrastructure works located in the environment, such as roads, railways, bridges, canals, dams, ports, airports, buildings and other related constructions.",
+        "description": "The programme combines scientific and technological knowledge with a focus on sustainability and social responsibility. Skills development in areas such as structures, geotechnics, hydraulics, roads and transport, and construction, with a strong practical component and use of advanced technologies.",
         "link": ""
+      },
+      {
+        "date": "2022 - 2024",
+        "title": "Japanese language Diploma - ISI International Study Institute",
+        "description": "Two-year program in which Japanese language study was carried out up to a JLPT N1 level. With knowledge of more than 2100 Kanjis and Japanese grammar.",
+        "link": "https://drive.google.com/drive/folders/1UHQ81fVH2wvSYhPevnE-6NDzVF0Jl0Bd"
       }
     ]
   },
   {
     "workExperience": [
-      {
-        "date": "April - 2024",
-        "title": "J.P. Morgan Software Engineering Virtual Experience on Forage",
-        "description": "In this activity, a local development environment was established by configuring and downloading the necessary files, tools, and dependencies. Subsequently, a review of the repository was carried out to correct damaged files that prevented the correct functioning of the web application.",
-        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714187911014/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
-      },
       {
         "date": "April - 2024",
         "title": "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
@@ -33,6 +33,12 @@
   },
   {
     "professionalCourses": [
+      {
+        "date": "09/2024 - Continue",
+        "title": "FullStack Web Developer - Tech Talent Program Colombia",
+        "description": "FullStack Web Development course with an intensive training experience spanning over 159 hours of specialized content. During this course, I have consolidated my knowledge in key technologies of FullStack Web Development, including HTML, CSS, JavaScript, React, NodeJS, Express, TailwindCSS & GIT, as well as agile methodologies and good programming practices.",
+        "link": ""
+      },
       {
         "date": "03/2023 - 10/2023",
         "title": "Oracle Next Education F2 T5 Front-end Program",

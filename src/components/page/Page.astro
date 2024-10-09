@@ -13,14 +13,14 @@ const { currentLocale = 'es' } = Astro
 
 const locales = {
   es: {
-    title: 'Juan-Camilo-Losada | Portafolio',
+    title: 'Juan Camilo Losada B | Portafolio',
     description:
-      'Desarrollador Frontend Junior con solidos conocimientos en tecnologías, web modernas, adquiridas a través de una formación academica en informatica.'
+      'Contrata a un Desarrollador Web FullStack con conocimiento en tecnologías modernas y buenas prácticas, y con experiencia en trabajos en entornos criticos.'
   },
   en: {
-    title: 'Juan-Camilo-Losada | Portfolio',
+    title: 'Juan Camilo Losada B | Portfolio',
     description:
-      'Junior Frontend Developer with solid knowledge of modern web technologies, acquired through academic training in computing.'
+      'Hire a FullStack Web Developer with knowledge in modern technologies and best practices, and with experience in critical environments.'
   }
 }
 
@@ -30,7 +30,7 @@ interface Props {
 
 const { image } = Astro.props
 
-const ogImage = image || new URL(`${Astro.site}`).href
+const ogImage = image || new URL(`${Astro.site}og-image.png`).href
 ---
 
 <Layout

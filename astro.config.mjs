@@ -6,7 +6,7 @@ import vercel from '@astrojs/vercel/static'
 export default defineConfig({
   output: 'static',
   adapter: vercel(),
-  site: 'https://juan-camilo-losada-bultaif-portfolio.vercel.app/',
+  site: 'https://juan-camilo-losada-bultaif-portfolio1.vercel.app/',
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],

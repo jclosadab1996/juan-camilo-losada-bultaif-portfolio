@@ -46,6 +46,45 @@
     ]
   },
   {
+    "title": "Live Docs",
+    "description": "Development of a Google Sheets style web application. Developed in Next JS, Clerk for validation and LiveBlocks for design.",
+    "what_i_learned": [
+      "Using Next JS for web development, routing, and components",
+      "Developing components with LiveBlocks and Shadcn",
+      "Using Tailwind CSS for styling",
+      "Validating users with Clerk"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn",
+      "Clerk",
+      "liveBlocks"
+    ],
+    "status": "Finish",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://live-docs-app-jclosadab1996.vercel.app/sign-in"
+    },
+    "github": "https://github.com/jclosadab1996/Live_docs_app",
+    "images": [
+      {
+        "src": "projects/live_docs/live_docs_1.webp",
+        "alt": "Live Docs"
+      },
+      {
+        "src": "projects/live_docs/live_docs_2.webp",
+        "alt": "Live Docs"
+      },
+      {
+        "src": "projects/live_docs/live_docs_3.webp",
+        "alt": "Live Docs"
+      }
+    ]
+  },
+  {
     "title": "Nike - SPA",
     "description": "Single Page Application based on the sports brand Nike",
     "what_i_learned": [
@@ -78,6 +117,84 @@
       {
         "src": "/projects/nike_spa/nike_spa_4.webp",
         "alt": "Nike - SPA"
+      }
+    ]
+  },
+  {
+    "title": "CarePulse",
+    "description": "Development of a web page with NextJS where appWrite was used for data storage and Twilio to send SMS messages. It has an Administrator mode that can be accessed with the password 123456",
+    "what_i_learned": [
+      "Using Next JS for web development, components and routing",
+      "Using App Write for the database",
+      "Using Tailwind CSS for styles",
+      "Using Twilio for sending SMS",
+      "Using Sentry for troubleshooting"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "App Write",
+      "Twilio",
+      "Sentry"
+    ],
+    "status": "Finish",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://healthcare-platform-jclosadab1996.vercel.app/"
+    },
+    "github": "https://github.com/jclosadab1996/healthcare_platform",
+    "images": [
+      {
+        "src": "projects/carepulse/carepulse_1.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_2.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_3.webp",
+        "alt": "CarePulse"
+      },
+      {
+        "src": "projects/carepulse/carepulse_4.webp",
+        "alt": "CarePulse"
+      }
+    ]
+  },
+  {
+    "title": "Figma Clone",
+    "description": "Developing a figma clone using Next JS, Canvas, Fabric JS and LiveBlocks",
+    "what_i_learned": [
+      "Using Next JS for web development, routing, and components",
+      "Component development with LiveBlocks and Shadcn",
+      "Using Tailwind CSS for styling"
+    ],
+    "features": "Personal Project",
+    "date": "2024",
+    "technologies": [
+      "Next JS",
+      "Tailwind CSS",
+      "Shadcn",
+      "Canvas",
+      "liveBlocks"
+    ],
+    "status": "Finish",
+    "deploy": {
+      "page": "Vercel",
+      "demo": "https://figma-clone-nextjs-jclosadab1996.vercel.app/"
+    },
+    "github": "https://github.com/jclosadab1996/figma-clone-nextjs",
+    "images": [
+      {
+        "src": "projects/figma_clone/figma_clone_1.webp",
+        "alt": "Fig Pro"
+      },
+      {
+        "src": "projects/figma_clone/figma_clone_2.webp",
+        "alt": "Fig Pro"
       }
     ]
   },
