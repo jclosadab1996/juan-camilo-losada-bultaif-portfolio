@@ -71,15 +71,15 @@
     "github": "https://github.com/jclosadab1996/Live_docs_app",
     "images": [
       {
-        "src": "projects/live_docs/live_docs_1.webp",
+        "src": "/projects/live_docs/live_docs_1.webp",
         "alt": "Live Docs"
       },
       {
-        "src": "projects/live_docs/live_docs_2.webp",
+        "src": "/projects/live_docs/live_docs_2.webp",
         "alt": "Live Docs"
       },
       {
-        "src": "projects/live_docs/live_docs_3.webp",
+        "src": "/projects/live_docs/live_docs_3.webp",
         "alt": "Live Docs"
       }
     ]
@@ -147,19 +147,19 @@
     "github": "https://github.com/jclosadab1996/healthcare_platform",
     "images": [
       {
-        "src": "projects/carepulse/carepulse_1.webp",
+        "src": "/projects/carepulse/carepulse_1.webp",
         "alt": "CarePulse"
       },
       {
-        "src": "projects/carepulse/carepulse_2.webp",
+        "src": "/projects/carepulse/carepulse_2.webp",
         "alt": "CarePulse"
       },
       {
-        "src": "projects/carepulse/carepulse_3.webp",
+        "src": "/projects/carepulse/carepulse_3.webp",
         "alt": "CarePulse"
       },
       {
-        "src": "projects/carepulse/carepulse_4.webp",
+        "src": "/projects/carepulse/carepulse_4.webp",
         "alt": "CarePulse"
       }
     ]
@@ -189,11 +189,11 @@
     "github": "https://github.com/jclosadab1996/figma-clone-nextjs",
     "images": [
       {
-        "src": "projects/figma_clone/figma_clone_1.webp",
+        "src": "/projects/figma_clone/figma_clone_1.webp",
         "alt": "Fig Pro"
       },
       {
-        "src": "projects/figma_clone/figma_clone_2.webp",
+        "src": "/projects/figma_clone/figma_clone_2.webp",
         "alt": "Fig Pro"
       }
     ]
