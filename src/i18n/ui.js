@@ -14,7 +14,7 @@ export const ui = {
     'bento.title': 'JUAN CAMILO LOSADA B',
     'bento.subtitle': 'Full Stack Developer',
     'bento.description':
-      'Desarrollador Full Stack con sólidos conocimientos en tecnologías web modernas. Con habilidades para crear interfaces de usuario recptivas, visualmente creativas, optimizadas en rendimiento y accesabilidad',
+      'Desarrollador Full Stack con sólidos conocimientos en tecnologías web modernas. Con habilidades para crear interfaces de usuario receptivas, visualmente creativas, optimizadas en rendimiento y accesibilidad.',
     'bento.download': 'Descargar',
     'bento.availability': 'Conectemos 🚀',
     'bento.country': 'COLOMBIA',
