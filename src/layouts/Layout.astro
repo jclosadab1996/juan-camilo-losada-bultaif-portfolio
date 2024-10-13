@@ -46,15 +46,15 @@ const { title, description, image } = Astro.props
     <slot />
     <style is:global>
       :root {
-        --light-background: #faeee7;
-        --dark-background: #1c0a03;
+        --light-background: #f1fcfd;
+        --dark-background: #1f2937;
 
         --white: #f3f4f6;
 
-        --black: #3e712e;
-        --black-transparent-02: #3e712e4f;
-        --black-transparent-08: #3e712eec;
-        --grey: #9f4210;
+        --black: #181823;
+        --black-transparent-02: #1818234f;
+        --black-transparent-08: #181823ec;
+        --grey: #8199b4;
 
         --light-blue: #a6d1e6;
         --dark-blue: #06283d;
@@ -94,35 +94,35 @@ const { title, description, image } = Astro.props
       }
 
       [data-theme='dark'] {
-        --light-background: #fce7df;
-        --dark-background: #1c0a03;
+        --light-background: #f1fcfd;
+        --dark-background: #1f2937;
 
         --white: #f3f4f6;
-        --black: #3e712e;
-        --black-transparent-02: #3e712e4f;
-        --black-transparent-08: #3e712eec;
+        --black: #181823;
+        --black-transparent-02: #1818234f;
+        --black-transparent-08: #181823ec;
 
-        --light-blue: #fcebe5;
-        --dark-blue: #f1a87c;
+        --light-blue: #a6d1e6;
+        --dark-blue: #06283d;
 
-        --sky-blue: #6f900f;
-        --sky-blue-transparent: #f1a87c4f;
+        --sky-blue: #c7eeff;
+        --sky-blue-transparent: #c7eeff80;
       }
 
       [data-theme='light'] {
-        --light-background: #3e712e;
-        --dark-background: #fef6e4;
+        --light-background: #1f2937;
+        --dark-background: #f1fcfd;
 
-        --white: #140d0b;
-        --black: #f582ae;
-        --black-transparent-02: #f582ae2a;
-        --black-transparent-08: #f582aef5;
+        --white: #181823;
+        --black: #f3f4f6;
+        --black-transparent-02: #f3f4f62a;
+        --black-transparent-08: #f3f4f6f5;
 
-        --light-blue: #ba5460;
-        --dark-blue: #8db3dd;
+        --light-blue: #06283d;
+        --dark-blue: #a6d1e6;
 
-        --sky-blue: #f3d2c1;
-        --sky-blue-transparent: #fef6e4;
+        --sky-blue: #c7eeff;
+        --sky-blue-transparent: #c7eeff80;
       }
 
       *,
