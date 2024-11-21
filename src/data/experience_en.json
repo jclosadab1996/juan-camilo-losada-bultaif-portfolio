@@ -18,16 +18,16 @@
   {
     "workExperience": [
       {
+        "date": "November - 2024",
+        "title": "Hackathon Talento Tech - Cali City Hall DATIC",
+        "description": "Participation in the development of an MVP (Minimum Viable Product) to address the problem of air quality in the city, using the ICA index as the main indicator. Application development with technologies such as React JS, TypeScript and TailwindCSS. Implementation of API consumption to integrate interactive maps and JSON design to structure information. Creation of intuitive interfaces and components to improve the user experience.",
+        "link": "https://proyecto-alcaldia-cali.vercel.app/"
+      },
+      {
         "date": "April - 2024",
         "title": "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
         "description": "In this activity, I performed a job simulation assuming the role of a front-end engineer at Skyscanner, where I built a web application using React. During the process, I developed a specific page to allow users to choose a travel date. To do this, I used the open source Backpack React library, created by Skyscanner, which makes it easy to develop coherent and attractive user interfaces. In addition to implementing this functionality, I customized the application according to the established requirements and ran automated tests to ensure that everything was processed correctly and met quality standards.",
         "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190095609/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
-      },
-      {
-        "date": "April - 2024",
-        "title": "Hewlett Packard Enterprise Software Engineering Job Simulation on Forage",
-        "description": "Write a detailed proposal for a RESTful web service to manage a list of employees. This proposal defined the requirements, functionalities and architecture of the service. I then used Java Spring Boot to create a web server application capable of accepting and responding to HTTP requests, as well as supporting loading data in JSON format. This application implemented the initially proposed RESTful web service. Once the application was developed, I wrote and ran a comprehensive set of unit tests to evaluate its performance and ensure that it met the established requirements. These tests allowed us to identify and correct possible errors or deficiencies in the code.",
-        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190601611/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
       }
     ]
   },

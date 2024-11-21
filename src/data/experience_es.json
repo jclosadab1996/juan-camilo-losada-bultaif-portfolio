@@ -18,17 +18,16 @@
   {
     "workExperience": [
       {
+        "date": "Noviembre - 2024",
+        "title": "Hackathon Talento Tech – Alcaldia De Cali DATIC",
+        "description": "Participación en el desarrollo de un MVP (Producto Mínimo Viable) para abordar la problemática de calidad del aire en la ciudad, utilizando el índice ICA como indicador principal, Desarrollo de la aplicación con tecnologías como React JS, TypeScript y TailwindCSS.Implementación del consumo de API para integrar mapas interactivos y diseño de JSON para estructurar la información. Creación de interfaces y componentes intuitivos para mejorar la experiencia de usuario.",
+        "link": "https://proyecto-alcaldia-cali.vercel.app/"
+      },
+      {
         "date": "Abril - 2024",
         "title": "Skyscanner Front-End Software Engineering virtual experience programme on Forage",
         "description": "En esta actividad, realicé una simulación laboral asumiendo el rol de ingeniero de front-end en Skyscanner, donde construí una aplicación web utilizando React. Durante el proceso, desarrollé una página específica para permitir a los usuarios elegir una fecha de viaje. Para ello, utilicé la biblioteca de código abierto Backpack React, creada por Skyscanner, la cual facilita el desarrollo de interfaces de usuario coherentes y atractivas. Además de implementar esta funcionalidad, personalicé la aplicación según los requisitos establecidos y ejecuté pruebas automatizadas para asegurar que todo se procesara correctamente y cumpliera con los estándares de calidad.",
         "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190095609/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
-      },
-
-      {
-        "date": "Abril - 2024",
-        "title": "Hewlett Packard Enterprise Software Engineering Job Simulation on Forage",
-        "description": "Escribie una propuesta detallada para un servicio web RESTful destinado a gestionar una lista de empleados. Esta propuesta definió los requisitos, las funcionalidades y la arquitectura del servicio. Posteriormente, utilicé Java Spring Boot para crear una aplicación de servidor web capaz de aceptar y responder a solicitudes HTTP, así como admitir la carga de datos en formato JSON. Esta aplicación implementó el servicio web RESTful propuesto inicialmente. Una vez desarrollada la aplicación, escribí y ejecuté un conjunto exhaustivo de pruebas unitarias con el objetivo de evaluar su rendimiento y asegurar que cumpliera con los requisitos establecidos. Estas pruebas permitieron identificar y corregir posibles errores o deficiencias en el código.",
-        "link": "https://www.linkedin.com/in/jclosadab/details/certifications/1714190601611/single-media-viewer/?profileId=ACoAACjO1LgBP3kOvqhPwEySPixBjS41Xth3OWs"
       }
     ]
   },
