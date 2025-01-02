@@ -197,25 +197,25 @@ const t = useTranslations(currentLocale)
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, calc(var(--max-width) / 11 + 5px));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    gap: 1.5rem;
+    padding: 1rem;
   }
 
   .bento-item {
-    border: 5px solid var(--dark-background);
-    border-radius: var(--border-radius);
-    background: linear-gradient(
-      180deg,
-      var(--dark-blue) 32.81%,
-      var(--black) 100%
-    );
-    box-shadow: var(--shadow-elevation-medium);
-    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    animation-duration: 1.2s;
+    border: 2px solid var(--dark-background);
+    border-radius: 1.5rem;
+    background: linear-gradient(145deg, var(--dark-blue) 0%, var(--black) 100%);
+    box-shadow:
+      0 10px 20px rgba(0, 0, 0, 0.2),
+      0 6px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
   .bento-item:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow:
+      0 15px 30px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.2);
   }
 
   .bento__1 {
@@ -224,14 +224,30 @@ const t = useTranslations(currentLocale)
     flex-direction: column;
     justify-content: space-evenly;
     gap: 0.8rem;
-    padding: 1rem;
+    padding: 1.5rem;
     animation-name: bento__1;
+    background: linear-gradient(165deg, var(--dark-blue) 0%, var(--black) 120%);
   }
 
   .bento__2 {
     grid-area: 1 / 5 /4 / 7;
     overflow: hidden;
     animation-name: bento__2;
+    border-radius: 1.5rem;
+  }
+
+  .bento__2-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    filter: drop-shadow(0 0 2px var(--light-blue));
+    transition: transform 0.5s ease;
+    filter: brightness(1.1) contrast(1.1);
+  }
+
+  .bento__2:hover .bento__2-img {
+    transform: scale(1.05);
   }
 
   .bento__3 {
@@ -444,19 +460,17 @@ const t = useTranslations(currentLocale)
     transform: scale(1.1);
   }
 
-  .bento__2-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: top;
-    filter: drop-shadow(0 0 2px var(--light-blue));
-  }
-
   .bento__3-link {
     cursor: pointer;
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
     border: none;
     display: flex;
     flex-direction: column;
@@ -464,6 +478,14 @@ const t = useTranslations(currentLocale)
     align-items: center;
     position: relative;
     text-decoration: none;
+  }
+
+  .bento__3-link:hover {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.07) 100%
+    );
   }
 
   .bento__3-icon {
@@ -506,10 +528,12 @@ const t = useTranslations(currentLocale)
       from 90deg at 50% 50%,
       #48d4aa,
       #97ffef,
-      #48d4aa
+      #48d4aa,
+      #97ffef
     );
     animation: spin 3s linear infinite;
     border-radius: var(--border-radius);
+    filter: blur(10px);
   }
 
   @keyframes spin {
